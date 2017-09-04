@@ -1,6 +1,6 @@
 # Vue Auth0
 
-A pusher plugin for auth0-js V8
+A auth0-js V8 plugin for Vue 2.X
 
 ## Why?
 
