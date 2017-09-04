@@ -47,15 +47,15 @@ export default {
 
 Following data is saved on Local Storage:
 
-- **expires_at:** Tiempo de vida del token
-- **id_token:** JWT que devuelve Auth0
-- **access_token:** Token necesario para consultar información y permisos del usuario
-- **profile:** Profile information saved in a JSON.
+- **expires_at:** Tokens time-to-live
+- **id_token:** JWT that Auth0 returns
+- **access_token:** Token for doing request about information and rules to Auth0
+- **profile:** Profile information saved in a JSON
 
 
 ### Also accessible on components
 
-- **this.$auth0.webAuth:** WebAuth object provided by Auth0.
+- **this.$auth0.webAuth:** WebAuth object provided by Auth0
 - **this.$auth0.profile:** Profile information
 - **this.$auth9.options:** Options of the Initialization
 
